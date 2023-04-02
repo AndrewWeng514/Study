@@ -1,0 +1,111 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "testlogin[admin-123456-0000-login-pass]",
+      "uid": "9c4721a523a526bb",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1663927142301,
+        "stop": 1663927142313,
+        "duration": 12
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'login-pass'",
+        "'123456'",
+        "'admin'",
+        "'0000'"
+      ]
+    },
+    {
+      "name": "testlogin[admin-1234-0000-login-fail]",
+      "uid": "bd383ff79fbc5f6b",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1663927142322,
+        "stop": 1663927142332,
+        "duration": 10
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'login-fail'",
+        "'1234'",
+        "'admin'",
+        "'0000'"
+      ]
+    },
+    {
+      "name": "testlogin[admin-123456-12312-login-fail]",
+      "uid": "fa1400e2bad64750",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "failed",
+      "time": {
+        "start": 1663927142342,
+        "stop": 1663927142351,
+        "duration": 9
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'login-fail'",
+        "'123456'",
+        "'admin'",
+        "'12312'"
+      ]
+    },
+    {
+      "name": "test_barcode[6955203636348]",
+      "uid": "9082ce38a94ede3a",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1663927142655,
+        "stop": 1663927144744,
+        "duration": 2089
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'6955203636348'"
+      ]
+    },
+    {
+      "name": "test_barcode[6955203653819]",
+      "uid": "d8ea5fb852b39028",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1663927144748,
+        "stop": 1663927146819,
+        "duration": 2071
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'6955203653819'"
+      ]
+    },
+    {
+      "name": "test_barcode[12342134]",
+      "uid": "c6638bd5f5b88cad",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1663927146825,
+        "stop": 1663927148865,
+        "duration": 2040
+      },
+      "flaky": false,
+      "newFailed": false,
+      "parameters": [
+        "'12342134'"
+      ]
+    }
+  ]
+}

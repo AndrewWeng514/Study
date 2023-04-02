@@ -1,0 +1,54 @@
+{
+  "name": "testuploadanddelete[GB20220928-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "batchname",
+      "value": "'GB20220928'"
+    },
+    {
+      "name": "batchfile",
+      "value": "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'"
+    }
+  ],
+  "start": 1663926634918,
+  "stop": 1663926635230,
+  "uuid": "7215b5fb-3943-4de4-b813-da3752d8da69",
+  "historyId": "c5087d281450866874f8dc4b1ba0d36c",
+  "testCaseId": "886e488a319c3e19f6afe790af4647ae",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#testuploadanddelete",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

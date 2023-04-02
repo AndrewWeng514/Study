@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试报告</title>
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body style="margin-top: 20px; font-family: '微软雅黑';">
+<table border="1" cellspacing="0" cellpadding="5"
+       width="95%" align="center">
+    <tr bgcolor="red" style="font-size: 30px;">
+        <td height="60" colspan="5">蜗牛学院-自动化测试报告: login-report</td>
+    <tr>
+        <th width="50%" height="50">测试概况</th>
+        <th width="50%" height="50">统计图</th>
+    </tr>
+    <tr>
+        <td>成功：4 个</td>
+        <!--		模板变量，自己定义一个特殊的字符串-->
+        <td rowspan="3">
+            <div id="main" style="width: 800px;height:250px;"></div>
+            <script type="text/javascript">
+				var myChart = echarts.init(document.getElementById('main'));
+				var option = {
+					tooltip : {
+						trigger : 'item',
+						formatter: '{a} {b} : {c} ({d}%)'
+					},
+					series : [
+						{
+							name: '测试统计',
+							type: 'pie',    // 设置图表类型为饼图
+							radius: '90%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+							label : {
+								normal: {
+									show : true,
+									formatter: '{a} {b} : \n{c} ({d}%)'
+								}
+							},
+							color : ['green','red'],
+							data:[          // 数据数组，name 为数据项名称，value 为数据项值
+								{value:4, name:'success'},
+								{value:8, name:'failed'},
+							]
+						}
+					]
+				};
+				myChart.setOption(option);
+
+            </script>
+        </td>
+    </tr>
+    <tr>
+        <td style="color : red;">失败：8 个</td>
+    </tr>
+    <tr>
+        <td>失败率：66.67%</td>
+    </tr>
+
+</table>
+
+
+<table border="1" cellspacing="0" cellpadding="5"
+       width="95%" align="center">
+    <tr bgcolor="red">
+        <td width="5%">用例编号</td>
+        <td width="15%">用例标题</td>
+        <td width="15%">实际结果</td>
+        <td width="15%">预期结果</td>
+        <td width="5%">测试结论</td>
+        <td width="8%">现场截图</td>
+    </tr>
+
+    <!-- 此处只需要定义一个变量，用于循环代替即可 -->
+    <tr bgcolor="white">
+        <td width="5%">login-1</td>
+        <td width="15%">用户名为空</td>
+        <td width="15%">success</td>
+        <td width="15%">用户名不能为空.</td>
+        <td width="5%">用户名不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-2</td>
+        <td width="15%">密码为空</td>
+        <td width="15%">success</td>
+        <td width="15%">密码不能为空.</td>
+        <td width="5%">密码不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-3</td>
+        <td width="15%">密码错误</td>
+        <td width="15%">success</td>
+        <td width="15%">用户名或密码错误.</td>
+        <td width="5%">用户名或密码错误.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-4</td>
+        <td width="15%">用户名为空</td>
+        <td width="15%">fail</td>
+        <td width="15%">用户名不</td>
+        <td width="5%">用户名不能为空.</td>
+        <td width="8%"><a href="./login-4.png" target="_blank">login-4.png</a></td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-5</td>
+        <td width="15%">密码为空</td>
+        <td width="15%">success</td>
+        <td width="15%">密码不能为空.</td>
+        <td width="5%">密码不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-6</td>
+        <td width="15%">密码错误</td>
+        <td width="15%">fail</td>
+        <td width="15%">用户名或密</td>
+        <td width="5%">用户名或密码错误.</td>
+        <td width="8%"><a href="./login-6.png" target="_blank">login-6.png</a></td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-1</td>
+        <td width="15%">用户名为空</td>
+        <td width="15%">success</td>
+        <td width="15%">用户名不能为空.</td>
+        <td width="5%">用户名不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-2</td>
+        <td width="15%">密码为空</td>
+        <td width="15%">success</td>
+        <td width="15%">密码不能为空.</td>
+        <td width="5%">密码不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-3</td>
+        <td width="15%">密码错误</td>
+        <td width="15%">success</td>
+        <td width="15%">用户名或密码错误.</td>
+        <td width="5%">用户名或密码错误.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-4</td>
+        <td width="15%">用户名为空</td>
+        <td width="15%">fail</td>
+        <td width="15%">用户名不</td>
+        <td width="5%">用户名不能为空.</td>
+        <td width="8%"><a href="./login-4.png" target="_blank">login-4.png</a></td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-5</td>
+        <td width="15%">密码为空</td>
+        <td width="15%">success</td>
+        <td width="15%">密码不能为空.</td>
+        <td width="5%">密码不能为空.</td>
+        <td width="8%">无</td>
+    </tr>
+    <tr bgcolor="white">
+        <td width="5%">login-6</td>
+        <td width="15%">密码错误</td>
+        <td width="15%">fail</td>
+        <td width="15%">用户名或密</td>
+        <td width="5%">用户名或密码错误.</td>
+        <td width="8%"><a href="./login-6.png" target="_blank">login-6.png</a></td>
+    </tr>
+</table>
+</body>
+</html>

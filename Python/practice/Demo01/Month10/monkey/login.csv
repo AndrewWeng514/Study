@@ -1,0 +1,10 @@
+open,chrome
+visit,http://101.34.13.184:8080/WoniuBoss4.0/login/
+input,xpath,//input[@placeholder="请输入用户名"],WNCD000
+input,name,userPass,woniu123
+input,name,checkcode,0000
+click,xpath,//button[@onclick="login();"]
+wait,4
+assert_exist,link text,[注销]
+
+

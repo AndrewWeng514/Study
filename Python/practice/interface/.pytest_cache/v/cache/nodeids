@@ -1,0 +1,23 @@
+[
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[13051483164-\\u4f59\\u8f89-\\u7537-2015-12-05-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[13342732083-\\u674e\\u98de-\\u7537-2021-03-09-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[13362127689-\\u8303\\u6b22-\\u5973-2013-10-15-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[13839086920-\\u738b\\u4e3d\\u5a1f-\\u5973-2019-07-29-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[13961395162-\\u9ec4\\u5e06-\\u7537-2020-02-05-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[15078178834-\\u674e\\u5a1c-\\u7537-2022-02-09-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[15617146592-\\u5434\\u7ea2\\u971e-\\u7537-2015-04-26-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[15822399804-\\u5f20\\u51e4\\u5170-\\u5973-2020-07-06-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[15828873950-\\u5468\\u6960-\\u7537-2018-01-03-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[15995718396-\\u738b\\u5764-\\u5973-2012-10-16-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[18048508665-\\u5218\\u6d01-\\u7537-2016-04-03-0-0-add-successful]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_addvip[18682558655-\\u672a\\u77e5-\\u7537-2022-09-23-0-0-already-added]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_login[admin-12345-00-vcode-erro]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_login[admin-12345-0000-login-fail]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_login[admin-123456-0000-login-pass0]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_login[admin-123456-0000-login-pass1]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_querybarcode[123456]",
+  "testcase/testwoniusales.py::TestWoniuSales::test_querybarcode[2154984132548]",
+  "testcase/testwoniusales.py::TestWoniuSales::testuploadanddelete[GB20220928-D:\\\\Pycharm\\\\PythonProject\\\\python67\\\\interface\\\\data\\\\a.xls]",
+  "testcase/testwoniusales.py::TestWoniuSales::testuploadfail[GB20220920-D:\\\\Pycharm\\\\PythonProject\\\\python67\\\\interface\\\\data\\\\a.xls-already-imported]",
+  "testcase/testwoniusales.py::TestWoniuSales::testuploadfail[GB20220931-F:\\\\VideoRecording\\\\\\u7f51\\u6613\\u4e91\\u97f3\\u4e50\\u6d4b\\u8bd5\\u7528\\u4f8b.xls-format-error]"
+]

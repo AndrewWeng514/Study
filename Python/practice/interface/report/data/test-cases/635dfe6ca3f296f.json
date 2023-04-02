@@ -1,0 +1,133 @@
+{
+  "uid": "635dfe6ca3f296f",
+  "name": "testuploadfail[GB20220931-F:\\VideoRecording\\网易云音乐测试用例.xls-format-error]",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#testuploadfail",
+  "historyId": "643de7ca9369525ebd891a267f6e86ee",
+  "time": {
+    "start": 1663926193819,
+    "stop": 1663926194050,
+    "duration": 231
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales",
+      "time": {
+        "start": 1663926193283,
+        "stop": 1663926193301,
+        "duration": 18
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    },
+    {
+      "name": "_session_faker",
+      "time": {
+        "start": 1663926193191,
+        "stop": 1663926193283,
+        "duration": 92
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales::0",
+      "time": {
+        "start": 1663926194072,
+        "stop": 1663926194072,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "13992-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "batchfile",
+      "value": "'F:\\VideoRecording\\网易云音乐测试用例.xls'"
+    },
+    {
+      "name": "batchname",
+      "value": "'GB20220931'"
+    },
+    {
+      "name": "expect",
+      "value": "'format-error'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "635dfe6ca3f296f.json",
+  "parameterValues": [
+    "'F:\\VideoRecording\\网易云音乐测试用例.xls'",
+    "'GB20220931'",
+    "'format-error'"
+  ]
+}

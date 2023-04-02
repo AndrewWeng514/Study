@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Sep 23 17:59:02 CST 2022","Fri Sep 23 17:59:02 CST 2022","9","testcase","test_login","TestLogin","","","testlogin[admin-123456-12312-login-fail]",""
+"passed","Fri Sep 23 17:59:02 CST 2022","Fri Sep 23 17:59:02 CST 2022","10","testcase","test_login","TestLogin","","","testlogin[admin-1234-0000-login-fail]",""
+"passed","Fri Sep 23 17:59:02 CST 2022","Fri Sep 23 17:59:04 CST 2022","2089","testcase","test_sell","TestSell","","","test_barcode[6955203636348]",""
+"passed","Fri Sep 23 17:59:04 CST 2022","Fri Sep 23 17:59:06 CST 2022","2071","testcase","test_sell","TestSell","","","test_barcode[6955203653819]",""
+"passed","Fri Sep 23 17:59:06 CST 2022","Fri Sep 23 17:59:08 CST 2022","2040","testcase","test_sell","TestSell","","","test_barcode[12342134]",""
+"passed","Fri Sep 23 17:59:02 CST 2022","Fri Sep 23 17:59:02 CST 2022","12","testcase","test_login","TestLogin","","","testlogin[admin-123456-0000-login-pass]",""

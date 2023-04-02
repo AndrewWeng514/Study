@@ -1,0 +1,66 @@
+{
+  "name": "test_login[admin-12345-00-vcode-erro]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'vcode-error' == 'vcode-erro'\n  - vcode-erro\n  + vcode-error\n  ?           +",
+    "trace": "self = <testwoniusales.TestWoniuSales object at 0x000002557635D8D0>\nusername = 'admin', password = '12345', verifycode = '00', expect = 'vcode-erro'\n\n    @pytest.mark.parametrize(\"username,password,verifycode,expect\",logindata)\n    def test_login(self,username,password,verifycode,expect):\n        res = self.wn.login(username,password,verifycode)\n>       assert res.text==expect\nE       AssertionError: assert 'vcode-error' == 'vcode-erro'\nE         - vcode-erro\nE         + vcode-error\nE         ?           +\n\ntestcase\\testwoniusales.py:28: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'admin'"
+    },
+    {
+      "name": "password",
+      "value": "'12345'"
+    },
+    {
+      "name": "verifycode",
+      "value": "'00'"
+    },
+    {
+      "name": "expect",
+      "value": "'vcode-erro'"
+    }
+  ],
+  "start": 1663926634791,
+  "stop": 1663926634796,
+  "uuid": "7ef74ef8-21da-42d2-a730-427c95374f48",
+  "historyId": "100c87fea2233b86307f74a6fb1809a1",
+  "testCaseId": "fd85d5a9c10b786015e24a5972839fe0",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_login",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

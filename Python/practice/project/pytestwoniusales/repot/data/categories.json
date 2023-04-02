@@ -1,0 +1,37 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "AssertionError: assert 'vcode-error' == 'login-fail'\n  - login-fail\n  + vcode-error",
+          "children": [
+            {
+              "name": "testlogin[admin-123456-12312-login-fail]",
+              "uid": "fa1400e2bad64750",
+              "parentUid": "4a52db5c31298042eb5be1ee889ca84c",
+              "status": "failed",
+              "time": {
+                "start": 1663927142342,
+                "stop": 1663927142351,
+                "duration": 9
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'login-fail'",
+                "'123456'",
+                "'admin'",
+                "'12312'"
+              ]
+            }
+          ],
+          "uid": "4a52db5c31298042eb5be1ee889ca84c"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}

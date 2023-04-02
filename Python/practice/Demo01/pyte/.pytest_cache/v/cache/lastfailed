@@ -1,0 +1,4 @@
+{
+  "testcase/testhalo.py::TestBaidu::testsearch": true,
+  "testcase/test_baidu.py::TestBaidu::testlogin": true
+}

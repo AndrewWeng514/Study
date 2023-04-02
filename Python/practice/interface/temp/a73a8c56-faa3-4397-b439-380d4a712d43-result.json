@@ -1,0 +1,62 @@
+{
+  "name": "test_login[admin-12345-0000-login-fail]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'admin'"
+    },
+    {
+      "name": "password",
+      "value": "'12345'"
+    },
+    {
+      "name": "verifycode",
+      "value": "'0000'"
+    },
+    {
+      "name": "expect",
+      "value": "'login-fail'"
+    }
+  ],
+  "start": 1663926634776,
+  "stop": 1663926634782,
+  "uuid": "f5bc3555-5144-445d-9bea-871fe224bff4",
+  "historyId": "4a1380568c39cd52c5aa36b43235810a",
+  "testCaseId": "fd85d5a9c10b786015e24a5972839fe0",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_login",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

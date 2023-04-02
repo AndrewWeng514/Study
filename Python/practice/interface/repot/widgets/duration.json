@@ -1,0 +1,123 @@
+[
+  {
+    "uid": "d81241b31469f8e1",
+    "name": "test_querybarcode[2154984132548]",
+    "time": {
+      "start": 1663926634868,
+      "stop": 1663926634878,
+      "duration": 10
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9aad520b42d1a02c",
+    "name": "testuploadfail[GB20220931-F:\\VideoRecording\\网易云音乐测试用例.xls-format-error]",
+    "time": {
+      "start": 1663926635235,
+      "stop": 1663926635475,
+      "duration": 240
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b986ca036cbc6bc7",
+    "name": "testuploadfail[GB20220920-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls-already-imported]",
+    "time": {
+      "start": 1663926635488,
+      "stop": 1663926635509,
+      "duration": 21
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "eac08390088c2fd5",
+    "name": "test_addvip[13362127689-范欢-女-2013-10-15-0-0-add-successful]",
+    "time": {
+      "start": 1663926634899,
+      "stop": 1663926634908,
+      "duration": 9
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f19978fff4798f1",
+    "name": "test_login[admin-12345-00-vcode-erro]",
+    "time": {
+      "start": 1663926634791,
+      "stop": 1663926634796,
+      "duration": 5
+    },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "8ee8f85c999ff7e3",
+    "name": "test_addvip[18682558655-未知-男-2022-09-23-0-0-already-added]",
+    "time": {
+      "start": 1663926634883,
+      "stop": 1663926634890,
+      "duration": 7
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "dc63c3fa4b768cbb",
+    "name": "test_login[admin-123456-0000-login-pass0]",
+    "time": {
+      "start": 1663926634722,
+      "stop": 1663926634734,
+      "duration": 12
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "553a271996b8af42",
+    "name": "test_login[admin-123456-0000-login-pass1]",
+    "time": {
+      "start": 1663926634741,
+      "stop": 1663926634768,
+      "duration": 27
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7073c85b72fc5059",
+    "name": "testuploadanddelete[GB20220928-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls]",
+    "time": {
+      "start": 1663926634918,
+      "stop": 1663926635230,
+      "duration": 312
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "63449168516ccee0",
+    "name": "test_querybarcode[123456]",
+    "time": {
+      "start": 1663926634850,
+      "stop": 1663926634863,
+      "duration": 13
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3a57ed4dc18675aa",
+    "name": "test_login[admin-12345-0000-login-fail]",
+    "time": {
+      "start": 1663926634776,
+      "stop": 1663926634782,
+      "duration": 6
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

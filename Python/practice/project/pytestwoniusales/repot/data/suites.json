@@ -1,0 +1,141 @@
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "testcase",
+      "children": [
+        {
+          "name": "test_login",
+          "children": [
+            {
+              "name": "TestLogin",
+              "children": [
+                {
+                  "name": "testlogin[admin-123456-0000-login-pass]",
+                  "uid": "9c4721a523a526bb",
+                  "parentUid": "a78be7069c22cb24448c5bc447c4aec6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1663927142301,
+                    "stop": 1663927142313,
+                    "duration": 12
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'login-pass'",
+                    "'123456'",
+                    "'admin'",
+                    "'0000'"
+                  ]
+                },
+                {
+                  "name": "testlogin[admin-1234-0000-login-fail]",
+                  "uid": "bd383ff79fbc5f6b",
+                  "parentUid": "a78be7069c22cb24448c5bc447c4aec6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1663927142322,
+                    "stop": 1663927142332,
+                    "duration": 10
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'login-fail'",
+                    "'1234'",
+                    "'admin'",
+                    "'0000'"
+                  ]
+                },
+                {
+                  "name": "testlogin[admin-123456-12312-login-fail]",
+                  "uid": "fa1400e2bad64750",
+                  "parentUid": "a78be7069c22cb24448c5bc447c4aec6",
+                  "status": "failed",
+                  "time": {
+                    "start": 1663927142342,
+                    "stop": 1663927142351,
+                    "duration": 9
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'login-fail'",
+                    "'123456'",
+                    "'admin'",
+                    "'12312'"
+                  ]
+                }
+              ],
+              "uid": "a78be7069c22cb24448c5bc447c4aec6"
+            }
+          ],
+          "uid": "0a485542467e5c5c95949e99a701fc6f"
+        },
+        {
+          "name": "test_sell",
+          "children": [
+            {
+              "name": "TestSell",
+              "children": [
+                {
+                  "name": "test_barcode[6955203636348]",
+                  "uid": "9082ce38a94ede3a",
+                  "parentUid": "d36f13200a73b480619e367c4839c78a",
+                  "status": "passed",
+                  "time": {
+                    "start": 1663927142655,
+                    "stop": 1663927144744,
+                    "duration": 2089
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'6955203636348'"
+                  ]
+                },
+                {
+                  "name": "test_barcode[6955203653819]",
+                  "uid": "d8ea5fb852b39028",
+                  "parentUid": "d36f13200a73b480619e367c4839c78a",
+                  "status": "passed",
+                  "time": {
+                    "start": 1663927144748,
+                    "stop": 1663927146819,
+                    "duration": 2071
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'6955203653819'"
+                  ]
+                },
+                {
+                  "name": "test_barcode[12342134]",
+                  "uid": "c6638bd5f5b88cad",
+                  "parentUid": "d36f13200a73b480619e367c4839c78a",
+                  "status": "passed",
+                  "time": {
+                    "start": 1663927146825,
+                    "stop": 1663927148865,
+                    "duration": 2040
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": [
+                    "'12342134'"
+                  ]
+                }
+              ],
+              "uid": "d36f13200a73b480619e367c4839c78a"
+            }
+          ],
+          "uid": "ca62329e1318e57689dab0cb5e17c878"
+        }
+      ],
+      "uid": "7d3977dcbf31acd3e26ecbe96342e45e"
+    }
+  ]
+}

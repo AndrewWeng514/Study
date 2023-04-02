@@ -1,0 +1,66 @@
+{
+  "name": "testlogin[admin-123456-12312-login-fail]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'vcode-error' == 'login-fail'\n  - login-fail\n  + vcode-error",
+    "trace": "self = <project.pytestwoniusales.testcase.test_login.TestLogin object at 0x000001A385A1B400>\nusername = 'admin', password = '123456', verifcode = '12312', exp = 'login-fail'\n\n    @pytest.mark.parametrize(\"username, password, verifcode,exp\",logindata)\n    def testlogin(self,username, password, verifcode,exp):\n        res =WoniusalesInterface().login(username, password, verifcode)\n>       assert res.text ==exp\nE       AssertionError: assert 'vcode-error' == 'login-fail'\nE         - login-fail\nE         + vcode-error\n\ntestcase\\test_login.py:16: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'admin'"
+    },
+    {
+      "name": "password",
+      "value": "'123456'"
+    },
+    {
+      "name": "verifcode",
+      "value": "'12312'"
+    },
+    {
+      "name": "exp",
+      "value": "'login-fail'"
+    }
+  ],
+  "start": 1663927142342,
+  "stop": 1663927142351,
+  "uuid": "3e625ea8-6fa2-47e8-9230-e81f42aa8ff7",
+  "historyId": "bc98cda9f79e99afb770ea2dd4ec5ce3",
+  "testCaseId": "7627beb936712a525875b7ecdcf3cd1b",
+  "fullName": "testcase.test_login.TestLogin#testlogin",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "test_login"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5SS8JVM"
+    },
+    {
+      "name": "thread",
+      "value": "17560-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.test_login"
+    }
+  ]
+}

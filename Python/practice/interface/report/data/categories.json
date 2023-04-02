@@ -1,0 +1,37 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "AssertionError: assert 'vcode-error' == 'vcode-erro'\n  - vcode-erro\n  + vcode-error\n  ?           +",
+          "children": [
+            {
+              "name": "test_login[admin-12345-00-vcode-erro]",
+              "uid": "28a86987501f2d3f",
+              "parentUid": "920ee4174df50799a848bfdbe6bdfbc2",
+              "status": "failed",
+              "time": {
+                "start": 1663926193347,
+                "stop": 1663926193358,
+                "duration": 11
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'vcode-erro'",
+                "'12345'",
+                "'admin'",
+                "'00'"
+              ]
+            }
+          ],
+          "uid": "920ee4174df50799a848bfdbe6bdfbc2"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}

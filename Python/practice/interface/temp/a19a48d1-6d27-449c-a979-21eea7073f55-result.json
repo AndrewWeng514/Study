@@ -1,0 +1,58 @@
+{
+  "name": "testuploadfail[GB20220920-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls-already-imported]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "batchname",
+      "value": "'GB20220920'"
+    },
+    {
+      "name": "batchfile",
+      "value": "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'"
+    },
+    {
+      "name": "expect",
+      "value": "'already-imported'"
+    }
+  ],
+  "start": 1663926635488,
+  "stop": 1663926635509,
+  "uuid": "6656d75c-d6a1-4964-a88b-1e8fd7ccb5ea",
+  "historyId": "2f8a8d3eecb3bd65858ba3657b7299c2",
+  "testCaseId": "66b5ef70392c8ec216c1ee992968b684",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#testuploadfail",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "e11a88f9-0faa-48b2-b62a-83e7ff6c869f",
+  "befores": [
+    {
+      "name": "cloth",
+      "status": "passed",
+      "start": 1663926634898,
+      "stop": 1663926634898
+    }
+  ],
+  "start": 1663926634898,
+  "stop": 1663926634909
+}

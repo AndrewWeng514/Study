@@ -1,0 +1,145 @@
+{
+  "status": 0,
+  "message": "Success",
+  "data": {
+    "trainList": [
+      {
+        "isDirect": false,
+        "isBookable": true,
+        "trainName": "Z40",
+        "trainType": "Z",
+        "startStationName": "南京",
+        "endStationName": "乌鲁木齐",
+        "startTime": "22:49",
+        "endTime": "11:24",
+        "useTime": 2195,
+        "isStartStation": false,
+        "isEndStation": true,
+        "preSaleDay": 29,
+        "saleReminder": "",
+        "seatBookingItem": [
+          {
+            "seatName": "硬座",
+            "price": "365.0",
+            "orderPrice": 365,
+            "inventory": 99,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          },
+          {
+            "seatName": "硬卧",
+            "price": "615.0",
+            "orderPrice": 660,
+            "inventory": 99,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          },
+          {
+            "seatName": "软卧",
+            "price": "976.0",
+            "orderPrice": 1019,
+            "inventory": 12,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          },
+          {
+            "seatName": "高级软卧",
+            "price": "1811.0",
+            "orderPrice": 2354.5,
+            "inventory": 0,
+            "isBookable": false,
+            "buttonDisplayName": "抢票",
+            "buttonType": 2
+          }
+        ],
+        "takeTime": "36小时35分",
+        "noteRemark": null,
+        "takeDays": 2,
+        "order": 2,
+        "filterValue": 14845832,
+        "trainMinPrice": 365,
+        "isSupportCard": false,
+        "isCanHB": false,
+        "trainRemark": "",
+        "grabTrainType": 0,
+        "trainChecked": false
+      },
+      {
+        "isDirect": false,
+        "isBookable": true,
+        "trainName": "Z304",
+        "trainType": "Z",
+        "startStationName": "南京",
+        "endStationName": "乌鲁木齐",
+        "startTime": "23:51",
+        "endTime": "15:30",
+        "useTime": 2379,
+        "isStartStation": false,
+        "isEndStation": false,
+        "preSaleDay": 29,
+        "saleReminder": "",
+        "seatBookingItem": [
+          {
+            "seatName": "硬座",
+            "price": "365.0",
+            "orderPrice": 365,
+            "inventory": 99,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          },
+          {
+            "seatName": "硬卧",
+            "price": "615.0",
+            "orderPrice": 660,
+            "inventory": 99,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          },
+          {
+            "seatName": "软卧",
+            "price": "976.0",
+            "orderPrice": 1019,
+            "inventory": 13,
+            "isBookable": true,
+            "buttonDisplayName": "预订",
+            "buttonType": 1
+          }
+        ],
+        "takeTime": "39小时39分",
+        "noteRemark": null,
+        "takeDays": 2,
+        "order": 2,
+        "filterValue": 14976776,
+        "trainMinPrice": 365,
+        "isSupportCard": false,
+        "isCanHB": false,
+        "trainRemark": "",
+        "grabTrainType": 0,
+        "trainChecked": false
+      }
+    ],
+    "extendInfo": {
+      "departDate": "2020-06-10",
+      "departStationList": [
+        "南京"
+      ],
+      "endStationList": [
+        "乌鲁木齐"
+      ],
+      "departStationFilterMap": {
+        "南京": 4194304
+      },
+      "endStationFilterMap": {
+        "乌鲁木齐": 8388608
+      },
+      "departCityName": "南京",
+      "arriveCityName": "乌鲁木齐",
+      "gtMinPrice": 0
+    }
+  }
+}

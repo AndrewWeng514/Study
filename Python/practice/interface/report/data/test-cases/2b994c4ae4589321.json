@@ -1,0 +1,153 @@
+{
+  "uid": "2b994c4ae4589321",
+  "name": "test_addvip[15995718396-王坤-女-2012-10-16-0-0-add-successful]",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_addvip",
+  "historyId": "b2cc3d6af53d1404423313fe3596dc14",
+  "time": {
+    "start": 1663926193475,
+    "stop": 1663926193483,
+    "duration": 8
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales",
+      "time": {
+        "start": 1663926193283,
+        "stop": 1663926193301,
+        "duration": 18
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    },
+    {
+      "name": "_session_faker",
+      "time": {
+        "start": 1663926193191,
+        "stop": 1663926193283,
+        "duration": 92
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales::0",
+      "time": {
+        "start": 1663926194072,
+        "stop": 1663926194072,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "13992-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "cloth",
+      "value": "'0'"
+    },
+    {
+      "name": "date",
+      "value": "'2012-10-16'"
+    },
+    {
+      "name": "expect",
+      "value": "'add-successful'"
+    },
+    {
+      "name": "kids",
+      "value": "'0'"
+    },
+    {
+      "name": "name",
+      "value": "'王坤'"
+    },
+    {
+      "name": "phone",
+      "value": "'15995718396'"
+    },
+    {
+      "name": "sex",
+      "value": "'女'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "2b994c4ae4589321.json",
+  "parameterValues": [
+    "'0'",
+    "'2012-10-16'",
+    "'add-successful'",
+    "'0'",
+    "'王坤'",
+    "'15995718396'",
+    "'女'"
+  ]
+}

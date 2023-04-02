@@ -1,0 +1,68 @@
+[
+  {
+    "uid": "d8ea5fb852b39028",
+    "name": "test_barcode[6955203653819]",
+    "time": {
+      "start": 1663927144748,
+      "stop": 1663927146819,
+      "duration": 2071
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "c6638bd5f5b88cad",
+    "name": "test_barcode[12342134]",
+    "time": {
+      "start": 1663927146825,
+      "stop": 1663927148865,
+      "duration": 2040
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9c4721a523a526bb",
+    "name": "testlogin[admin-123456-0000-login-pass]",
+    "time": {
+      "start": 1663927142301,
+      "stop": 1663927142313,
+      "duration": 12
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fa1400e2bad64750",
+    "name": "testlogin[admin-123456-12312-login-fail]",
+    "time": {
+      "start": 1663927142342,
+      "stop": 1663927142351,
+      "duration": 9
+    },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "bd383ff79fbc5f6b",
+    "name": "testlogin[admin-1234-0000-login-fail]",
+    "time": {
+      "start": 1663927142322,
+      "stop": 1663927142332,
+      "duration": 10
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9082ce38a94ede3a",
+    "name": "test_barcode[6955203636348]",
+    "time": {
+      "start": 1663927142655,
+      "stop": 1663927144744,
+      "duration": 2089
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

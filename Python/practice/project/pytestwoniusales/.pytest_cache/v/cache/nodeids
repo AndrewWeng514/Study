@@ -1,0 +1,8 @@
+[
+  "testcase/test_login.py::TestLogin::testlogin[admin-1234-0000-login-fail]",
+  "testcase/test_login.py::TestLogin::testlogin[admin-123456-0000-login-pass]",
+  "testcase/test_login.py::TestLogin::testlogin[admin-123456-12312-login-fail]",
+  "testcase/test_sell.py::TestSell::test_barcode[12342134]",
+  "testcase/test_sell.py::TestSell::test_barcode[6955203636348]",
+  "testcase/test_sell.py::TestSell::test_barcode[6955203653819]"
+]

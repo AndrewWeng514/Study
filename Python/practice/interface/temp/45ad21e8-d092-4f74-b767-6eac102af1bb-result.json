@@ -1,0 +1,74 @@
+{
+  "name": "test_addvip[18682558655-未知-男-2022-09-23-0-0-already-added]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "phone",
+      "value": "'18682558655'"
+    },
+    {
+      "name": "name",
+      "value": "'未知'"
+    },
+    {
+      "name": "sex",
+      "value": "'男'"
+    },
+    {
+      "name": "date",
+      "value": "'2022-09-23'"
+    },
+    {
+      "name": "kids",
+      "value": "'0'"
+    },
+    {
+      "name": "cloth",
+      "value": "'0'"
+    },
+    {
+      "name": "expect",
+      "value": "'already-added'"
+    }
+  ],
+  "start": 1663926634883,
+  "stop": 1663926634890,
+  "uuid": "a37ea818-ecf6-452e-89b2-7c4b2c0293a5",
+  "historyId": "62c1a3e6300426702a09c9fbd5af8d73",
+  "testCaseId": "535ba234a8ed3e1185e1782822ea1c4f",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_addvip",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

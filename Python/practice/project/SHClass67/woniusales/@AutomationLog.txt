@@ -1,0 +1,1 @@
+2022-09-15 10:41:24.162 test_goods.py[38] test_case_2 -> Find Control Timeout(10s): {Name: '打开(O)', ControlType: ButtonControl}

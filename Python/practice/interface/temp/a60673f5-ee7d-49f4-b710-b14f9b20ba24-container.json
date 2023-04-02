@@ -1,0 +1,13 @@
+{
+  "uuid": "d8d633b5-c3e8-4eb9-9e23-229a1d9e43fa",
+  "befores": [
+    {
+      "name": "batchfile",
+      "status": "passed",
+      "start": 1663926635234,
+      "stop": 1663926635234
+    }
+  ],
+  "start": 1663926635234,
+  "stop": 1663926635479
+}

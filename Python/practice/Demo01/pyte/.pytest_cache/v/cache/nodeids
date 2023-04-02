@@ -1,0 +1,6 @@
+[
+  "testcase/test_baidu.py::TestBaidu::testlogin",
+  "testcase/test_baidu.py::TestBaidu::testsell",
+  "testcase/test_halo.py::TestBaidu::testsearch",
+  "testcase/testhalo.py::TestBaidu::testsearch"
+]

@@ -1,0 +1,123 @@
+{
+  "uid": "b134f06edc146120",
+  "name": "test_querybarcode[2154984132548]",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_querybarcode",
+  "historyId": "515a25ef0890017b2997eb292bc13db9",
+  "time": {
+    "start": 1663926193434,
+    "stop": 1663926193446,
+    "duration": 12
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales",
+      "time": {
+        "start": 1663926193283,
+        "stop": 1663926193301,
+        "duration": 18
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    },
+    {
+      "name": "_session_faker",
+      "time": {
+        "start": 1663926193191,
+        "stop": 1663926193283,
+        "duration": 92
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales::0",
+      "time": {
+        "start": 1663926194072,
+        "stop": 1663926194072,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "13992-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "barcode",
+      "value": "'2154984132548'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "b134f06edc146120.json",
+  "parameterValues": [
+    "'2154984132548'"
+  ]
+}

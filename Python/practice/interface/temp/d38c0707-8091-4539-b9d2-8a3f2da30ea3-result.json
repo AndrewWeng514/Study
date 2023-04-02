@@ -1,0 +1,58 @@
+{
+  "name": "testuploadfail[GB20220931-F:\\VideoRecording\\网易云音乐测试用例.xls-format-error]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "batchname",
+      "value": "'GB20220931'"
+    },
+    {
+      "name": "batchfile",
+      "value": "'F:\\VideoRecording\\网易云音乐测试用例.xls'"
+    },
+    {
+      "name": "expect",
+      "value": "'format-error'"
+    }
+  ],
+  "start": 1663926635235,
+  "stop": 1663926635475,
+  "uuid": "87d3eeea-4a6a-42e9-a9f9-472eee225975",
+  "historyId": "643de7ca9369525ebd891a267f6e86ee",
+  "testCaseId": "66b5ef70392c8ec216c1ee992968b684",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#testuploadfail",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

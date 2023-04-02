@@ -1,0 +1,50 @@
+{
+  "name": "test_barcode[12342134]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "barcode",
+      "value": "'12342134'"
+    }
+  ],
+  "start": 1663927146825,
+  "stop": 1663927148865,
+  "uuid": "21b9b25c-c37e-4858-8ca2-7832eeb5a42d",
+  "historyId": "e5c7a1f7ff7af8a1f5703bd724836bdf",
+  "testCaseId": "1cf1b40b55a874eb41fff04783d31be6",
+  "fullName": "testcase.test_sell.TestSell#test_barcode",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "test_sell"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSell"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5SS8JVM"
+    },
+    {
+      "name": "thread",
+      "value": "17560-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.test_sell"
+    }
+  ]
+}

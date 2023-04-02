@@ -1,0 +1,50 @@
+{
+  "name": "test_querybarcode[2154984132548]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "barcode",
+      "value": "'2154984132548'"
+    }
+  ],
+  "start": 1663926634868,
+  "stop": 1663926634878,
+  "uuid": "a963d713-e173-4c1f-b81b-17d0ac970b95",
+  "historyId": "515a25ef0890017b2997eb292bc13db9",
+  "testCaseId": "2dd8b609c2eca2b2bf63866b9ac57935",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_querybarcode",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}

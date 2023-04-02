@@ -1,0 +1,4 @@
+caseID,CaseName,Data1,Oper,Data2,ExpecteResult
+1,add_正整数,100,+,200,300\n
+2,add_正负数,-100,+,200,100
+3,add_负数,-100,+,-100,-200

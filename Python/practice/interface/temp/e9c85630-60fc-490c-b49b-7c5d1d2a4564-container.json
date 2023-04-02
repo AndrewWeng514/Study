@@ -1,0 +1,13 @@
+{
+  "uuid": "4a6c21e7-24e2-49a6-af6a-01be573e5e94",
+  "befores": [
+    {
+      "name": "barcode",
+      "status": "passed",
+      "start": 1663926634850,
+      "stop": 1663926634850
+    }
+  ],
+  "start": 1663926634850,
+  "stop": 1663926634864
+}

@@ -1,0 +1,217 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "testcase.testwoniusales",
+      "children": [
+        {
+          "name": "test_login[admin-123456-0000-login-pass0]",
+          "uid": "1613405993de9ac1",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193303,
+            "stop": 1663926193309,
+            "duration": 6
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'login-pass'",
+            "'123456'",
+            "'admin'",
+            "'0000'"
+          ]
+        },
+        {
+          "name": "test_login[admin-123456-0000-login-pass1]",
+          "uid": "e52f89d3e7966d87",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193317,
+            "stop": 1663926193324,
+            "duration": 7
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'login-pass'",
+            "'123456'",
+            "'admin'",
+            "'0000'"
+          ]
+        },
+        {
+          "name": "test_login[admin-12345-0000-login-fail]",
+          "uid": "becf2b93807c298c",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193331,
+            "stop": 1663926193340,
+            "duration": 9
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'login-fail'",
+            "'12345'",
+            "'admin'",
+            "'0000'"
+          ]
+        },
+        {
+          "name": "test_login[admin-12345-00-vcode-erro]",
+          "uid": "28a86987501f2d3f",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "failed",
+          "time": {
+            "start": 1663926193347,
+            "stop": 1663926193358,
+            "duration": 11
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'vcode-erro'",
+            "'12345'",
+            "'admin'",
+            "'00'"
+          ]
+        },
+        {
+          "name": "test_querybarcode[123456]",
+          "uid": "e29e1065e10fec47",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193416,
+            "stop": 1663926193430,
+            "duration": 14
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'123456'"
+          ]
+        },
+        {
+          "name": "test_querybarcode[2154984132548]",
+          "uid": "b134f06edc146120",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193434,
+            "stop": 1663926193446,
+            "duration": 12
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'2154984132548'"
+          ]
+        },
+        {
+          "name": "test_addvip[18682558655-未知-男-2022-09-23-0-0-already-added]",
+          "uid": "27b987312dabd410",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193453,
+            "stop": 1663926193463,
+            "duration": 10
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'0'",
+            "'2022-09-23'",
+            "'already-added'",
+            "'0'",
+            "'未知'",
+            "'18682558655'",
+            "'男'"
+          ]
+        },
+        {
+          "name": "test_addvip[15995718396-王坤-女-2012-10-16-0-0-add-successful]",
+          "uid": "2b994c4ae4589321",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193475,
+            "stop": 1663926193483,
+            "duration": 8
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'0'",
+            "'2012-10-16'",
+            "'add-successful'",
+            "'0'",
+            "'王坤'",
+            "'15995718396'",
+            "'女'"
+          ]
+        },
+        {
+          "name": "testuploadanddelete[GB20220928-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls]",
+          "uid": "dd285350b83df651",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193495,
+            "stop": 1663926193813,
+            "duration": 318
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'",
+            "'GB20220928'"
+          ]
+        },
+        {
+          "name": "testuploadfail[GB20220931-F:\\VideoRecording\\网易云音乐测试用例.xls-format-error]",
+          "uid": "635dfe6ca3f296f",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926193819,
+            "stop": 1663926194050,
+            "duration": 231
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'F:\\VideoRecording\\网易云音乐测试用例.xls'",
+            "'GB20220931'",
+            "'format-error'"
+          ]
+        },
+        {
+          "name": "testuploadfail[GB20220920-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls-already-imported]",
+          "uid": "6b9772b9aa628e78",
+          "parentUid": "d67b9424b2bddd182098ebd16861ddfa",
+          "status": "passed",
+          "time": {
+            "start": 1663926194057,
+            "stop": 1663926194069,
+            "duration": 12
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'",
+            "'GB20220920'",
+            "'already-imported'"
+          ]
+        }
+      ],
+      "uid": "testcase.testwoniusales"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "uid": "dd285350b83df651",
+  "name": "testuploadanddelete[GB20220928-D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls]",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#testuploadanddelete",
+  "historyId": "c5087d281450866874f8dc4b1ba0d36c",
+  "time": {
+    "start": 1663926193495,
+    "stop": 1663926193813,
+    "duration": 318
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales",
+      "time": {
+        "start": 1663926193283,
+        "stop": 1663926193301,
+        "duration": 18
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    },
+    {
+      "name": "_session_faker",
+      "time": {
+        "start": 1663926193191,
+        "stop": 1663926193283,
+        "duration": 92
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "_xunit_setup_class_fixture_TestWoniuSales::0",
+      "time": {
+        "start": 1663926194072,
+        "stop": 1663926194072,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "13992-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "batchfile",
+      "value": "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'"
+    },
+    {
+      "name": "batchname",
+      "value": "'GB20220928'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "dd285350b83df651.json",
+  "parameterValues": [
+    "'D:\\Pycharm\\PythonProject\\python67\\interface\\data\\a.xls'",
+    "'GB20220928'"
+  ]
+}

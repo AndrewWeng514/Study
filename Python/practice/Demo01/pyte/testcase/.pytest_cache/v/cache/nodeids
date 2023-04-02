@@ -1,0 +1,4 @@
+[
+  "test_baidu.py::TestBaidu::testlogin",
+  "test_baidu.py::TestBaidu::testsell"
+]

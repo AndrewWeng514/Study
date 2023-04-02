@@ -1,0 +1,74 @@
+{
+  "name": "test_addvip[13362127689-范欢-女-2013-10-15-0-0-add-successful]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "phone",
+      "value": "'13362127689'"
+    },
+    {
+      "name": "name",
+      "value": "'范欢'"
+    },
+    {
+      "name": "sex",
+      "value": "'女'"
+    },
+    {
+      "name": "date",
+      "value": "'2013-10-15'"
+    },
+    {
+      "name": "kids",
+      "value": "'0'"
+    },
+    {
+      "name": "cloth",
+      "value": "'0'"
+    },
+    {
+      "name": "expect",
+      "value": "'add-successful'"
+    }
+  ],
+  "start": 1663926634899,
+  "stop": 1663926634908,
+  "uuid": "9c97a139-b335-42cc-9364-46e8132e5fdd",
+  "historyId": "f740190d5ae7e70d7a2baefda150f2c6",
+  "testCaseId": "535ba234a8ed3e1185e1782822ea1c4f",
+  "fullName": "testcase.testwoniusales.TestWoniuSales#test_addvip",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testcase"
+    },
+    {
+      "name": "suite",
+      "value": "testwoniusales"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWoniuSales"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HPUC7CA"
+    },
+    {
+      "name": "thread",
+      "value": "23952-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcase.testwoniusales"
+    }
+  ]
+}
